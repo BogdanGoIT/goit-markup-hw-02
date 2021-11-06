@@ -14,11 +14,13 @@ body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   color: #212121;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 /* Logo */
 
-.logo .blue {
+.logo-blue {
   color: #2196f3;
 }
 
@@ -27,9 +29,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #000000;
-  text-decoration: none;
 }
 
 /* Site nav */
@@ -41,12 +41,10 @@ body {
 .site-nav .link,
 .nav-contacts .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #212121;
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -85,4 +83,38 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
+}
+
+/* Feature */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.feature-text {
+  line-height: 1.71;
+  color: #757575;
+}
+
+/* WORK */
+.work-title,
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.command-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.command-name.skills {
+  color: #757575;
+  font-weight: 400;
 }

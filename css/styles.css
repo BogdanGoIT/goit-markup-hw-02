@@ -163,3 +163,41 @@ body {
 .footer-addr:focus {
   color: var(--acent-color);
 }
+
+/* Portfolio */
+
+/* Фильтра */
+
+.filter-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color: var(--white-color);
+  background-color: var(--acent-color);
+}
+
+/* Контент */
+.content-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-color);
+}
+
+.content-text {
+  font-size: 16px;
+  line-height: 1.87px;
+
+  color: var(--secondary-color);
+}

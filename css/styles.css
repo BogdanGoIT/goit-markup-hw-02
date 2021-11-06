@@ -89,6 +89,7 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -156,4 +157,9 @@ body {
 
 .footer-addr.cont {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-addr:hover,
+.footer-addr:focus {
+  color: var(--acent-color);
 }
